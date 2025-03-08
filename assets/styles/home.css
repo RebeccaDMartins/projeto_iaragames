@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body,
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100vw;
+    background: #101014 !important;
+}
+
+.container-header {
+    width: 100vw;
+    height: auto;
+    background-color: #141418;
+    height: 101.784px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.logo {
+    width: 20%;
+    min-width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    margin-left: -40px;
+}
+
+.container-nav {
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    justify-content: flex-start;
+}
+
+.container-ul {
+    display: inline-flex;
+    width: 25%;
+    max-width: 28%;
+    gap: 20%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link {
+    color: #C6C6C6;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.ativo {
+    color: #C6C6C6;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.botoes {
+    width: 25%;
+}
+
+.botoes button {
+    display: inline-flex;
+    padding: 10px 25px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 15px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.btn-cinza {
+    background: #353539;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btn-cinza a {
+    color: #FFF;
+}
+
+
+.btn-azul a {
+    color: #202024;
+}
+
+.btn-cinza a,
+.btn-azul a {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none
+}
+
+.btn-azul {
+    background: var(--iara-games-2,
+            linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            linear-gradient(41.38deg,
+                rgba(25, 134, 19, 1) 0%,
+                rgba(255, 246, 0, 1) 94.9999988079071%,
+                rgba(255, 247, 0, 1) 97.50000238418579%,
+                rgba(0, 111, 255, 1) 100%));
+    color: #202024;
+    cursor: pointer;
+}
+
+.container-main {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container {
+    width: 88%;
+    max-width: 1768px;
+    height: 100%;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.pesquisas {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px 0;
+}
+
+.input-wrapper {
+    display: flex;
+    width: 295px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.input-wrapper input {
+    border: none;
+    width: 295px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 28.5px;
+    background: #202024;
+    padding-left: 20px;
+    color: #C6C6C6;
+}
+
+.input-wrapper input::placeholder,
+.input-wrapper input::after {
+    padding-left: 50px;
+}
+
+.input-wrapper img {
+    margin-right: -40px;
+    z-index: 999;
+}
+
+.span-pesquisa {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 95px;
+    gap: 5%;
+    color: #C6C6C6;
+    width: 230px;
+    font-family: "Montserrat";
+}
+
+.observação {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    color: #C6C6C6;
+    width: 900px;
+    font-family: "Montserrat";
+}
+
+.conteudo {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: left;
+    width: auto;
+
+}
+
+.lista-jogos {
+    padding-bottom: 5%;
+    width: 100%;
+    flex-direction: line;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titulo-sessao {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 2%;
+    margin-left: 4%;
+}
+
+.lista-jogos,
+.jogo,
+.infos-jogo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+}
+
+.jogo,
+.infos-jogo {
+    flex-direction: column;
+}
+
+.jogo img {
+    height: 375px;
+}
+
+.infos-jogo {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 200%;
+}
+
+.nome-jogo {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.preco {
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: 500;
+
+}
+
+.rodape {
+    width: 100vw;
+    height: 600px;
+    flex-shrink: 0;
+    background: #1F1F25;
+    margin-top: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 88%;
+}
+
+.infos-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 80%;
+}
+
+.sociais {
+    display: flex;
+    width: 221px;
+    height: 103px;
+    align-items: center;
+    gap: 13px;
+    flex-shrink: 0;
+    margin-bottom: 26px;
+}
+
+.recursos {
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.recursos h5 {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.links-recursos {
+    display: flex;
+    width: 708px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.links-recursos ul li {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.btn-topo {
+    cursor: pointer;
+}
+
+.bi::before,
+[class*=" bi-"]::before {
+    background: linear-gradient( 41.38deg,
+            rgba(25, 134, 19, 1) 0%,
+            rgba(255, 246, 0, 1) 94.9999988079071%,
+            rgba(255, 247, 0, 1) 97.50000238418579%,
+            rgba(0, 111, 255, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-secondary,
+.dropdown-menu{
+    background-color: #353539 !important;
+}
+.dropdown-item{
+    color: #FFF !important;
+}
+.dropdown-item:hover{
+    background-color: transparent !important;
+    text-decoration: underline !important;
+}

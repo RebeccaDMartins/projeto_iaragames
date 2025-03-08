@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat'
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100vw;
+    background: #101014 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.voltar {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #1F1F25;
+    padding: 20px;
+    border-radius: 10px;
+    width: 550px;
+    height: 900px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container p {
+    font-size: 15px;
+}
+
+
+.logo img {
+    width: 250px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #f0f0f0;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+
+label,
+textarea {
+    display: block;
+    font-family: 'Montserrat';
+}
+
+textarea {
+    color: #fff;
+    background-color: #1F1F25;
+    align-content: center;
+    margin: 15px 0;
+    width: 300px;
+    height: 50px;
+    border: none;
+    /* Remove a borda padrão */
+    border: 2px solid var(--Iara-Games-2, #198613);
+    border-radius: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border: 1px solid #FFF316;
+    border-radius: 5px;
+    background-color: #1F1F25;
+    color: #fff;
+    outline: none;
+    width: 500px;
+    height: 60px;
+}
+
+.description,
+.password-info,
+.privacy-policy {
+    color: #bbb;
+    font-size: 12px;
+    margin: 5px 0;
+    text-align: left;
+}
+
+button {
+    width: 250px;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background: var(--Iara-Games-2, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(41deg, #198613 -47.31%, #FFF316 95.17%));
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.privacy-policy {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+}

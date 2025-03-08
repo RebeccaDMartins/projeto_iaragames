@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body,
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100vw;
+    background: #101014 !important;
+}
+
+.container-header {
+    width: 100vw;
+    height: auto;
+    background-color: #141418;
+    height: 101.784px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.logo {
+    width: 20%;
+    min-width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    margin-left: -40px;
+}
+
+.container-nav {
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    justify-content: flex-start;
+}
+
+.container-ul {
+    display: inline-flex;
+    width: 25%;
+    max-width: 28%;
+    gap: 20%;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.text-center {
+    color: #fff316;
+}
+
+.tabela-1 {
+    color: #fff316;
+}
+
+.tabela-2 {
+    color: #fff316;
+    margin-bottom: 10px;
+}
+
+.link {
+    color: #C6C6C6;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.ativo {
+    color: #C6C6C6;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.botoes {
+    width: 25%;
+}
+
+.botoes button {
+    display: inline-flex;
+    padding: 10px 25px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 15px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.btn-cinza {
+    background: #353539;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btn-cinza a {
+    color: #FFF;
+}
+
+
+.btn-azul a {
+    color: #202024;
+}
+
+.btn-cinza a,
+.btn-azul a {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none
+}
+
+.btn-azul {
+    background: var(--iara-games-2,
+            linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            linear-gradient(41.38deg,
+                rgba(25, 134, 19, 1) 0%,
+                rgba(255, 246, 0, 1) 94.9999988079071%,
+                rgba(255, 247, 0, 1) 97.50000238418579%,
+                rgba(0, 111, 255, 1) 100%));
+    color: #202024;
+    cursor: pointer;
+}
+
+.btn-adicionar {
+    background: linear-gradient(41.38deg,
+            rgba(25, 134, 19, 1) 0%,
+            rgba(255, 246, 0, 1) 94.9999988079071%,
+            rgba(255, 247, 0, 1) 97.50000238418579%,
+            rgba(0, 111, 255, 1) 100%);
+    background-color: #353539;
+    border-radius: 20%;
+}
+
+.bi::before,
+[class*=" bi-"]::before {
+    background: linear-gradient(41.38deg,
+            rgba(25, 134, 19, 1) 0%,
+            rgba(255, 246, 0, 1) 94.9999988079071%,
+            rgba(255, 247, 0, 1) 97.50000238418579%,
+            rgba(0, 111, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-secondary,
+.dropdown-menu {
+    background-color: #353539 !important;
+}
+
+.dropdown-item {
+    color: #FFF !important;
+}
+
+.dropdown-item:hover {
+    background-color: transparent !important;
+    text-decoration: underline !important;
+}
+
+.container-main {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container {
+    width: 88%;
+    max-width: 1768px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.content-container h1 {
+    color: #fff316;
+}
+
+.content-container h2 {
+    color: #fff;
+    opacity: 60%;
+}
+
+.content-container p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    opacity: 60%;
+}
+
+.ordenar {
+    margin: 30px 0 30px 70px;
+}
+
+.ordenar h2 {
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
+.ordenar label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.ordenar input[type="radio"] {
+    margin-right: 8px;
+    accent-color: #fff316;
+}
+
+.lista-jogos {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 40px;
+}
+
+.jogo img {
+    height: 300px;
+}
+
+.infos-jogo {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.nome-jogo {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.rodape {
+    width: 100vw;
+    height: 600px;
+    flex-shrink: 0;
+    background: #1F1F25;
+    margin-top: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 88%;
+}
+
+.infos-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 80%;
+}
+
+.sociais {
+    display: flex;
+    width: 221px;
+    height: 103px;
+    align-items: center;
+    gap: 13px;
+    flex-shrink: 0;
+    margin-bottom: 26px;
+}
+
+.recursos {
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.recursos h5 {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.links-recursos {
+    display: flex;
+    width: 708px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.links-recursos ul li {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.btn-topo {
+    cursor: pointer;
+}
+
+.btn-secondary,
+.dropdown-menu {
+    background-color: #1F1F25 !important;
+}
+
+.dropdown-item {
+    color: #FFF !important;
+}
+
+.dropdown-item:hover {
+    background-color: transparent !important;
+    text-decoration: underline !important;
+}
+
+.txt-modal {
+    color: #fff;
+}
+
+.btn-primary {
+    background: #1F1F25 !important;
+    border: none !important;
+}
+
+.modal.content {
+    background-color: #1F1F25 !important;
+}
