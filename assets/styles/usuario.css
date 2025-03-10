@@ -167,39 +167,6 @@ html {
     text-decoration: underline !important;
 }
 
-.container-main {
-    width: 100% !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.content-container {
-    width: 88%;
-    max-width: 1768px;
-    height: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin-top: 80px;
-}
-
-.content-container h1 {
-    color: #fff316;
-}
-
-.content-container h2 {
-    color: #fff;
-    opacity: 60%;
-}
-
-.content-container p {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-    opacity: 60%;
-}
 
 .ordenar {
     margin: 30px 0 30px 70px;
@@ -221,30 +188,6 @@ html {
 .ordenar input[type="radio"] {
     margin-right: 8px;
     accent-color: #fff316;
-}
-
-.lista-jogos {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    column-gap: 40px;
-}
-
-.jogo img {
-    height: 300px;
-}
-
-.infos-jogo {
-    color: #FFF;
-    font-family: "Montserrat";
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.nome-jogo {
-    color: #fff;
-    font-family: "Montserrat";
-    font-size: 20px;
-    font-weight: 600;
 }
 
 .rodape {

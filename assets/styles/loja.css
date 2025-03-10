@@ -170,40 +170,6 @@ html {
     text-decoration: underline !important;
 }
 
-.container-main {
-    width: 100% !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.content-container {
-    width: 88%;
-    max-width: 1768px;
-    height: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin-top: 80px;
-}
-
-.content-container h1 {
-    color: #fff316;
-}
-
-.content-container h2 {
-    color: #fff;
-    opacity: 60%;
-}
-
-.content-container p {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-    opacity: 60%;
-}
-
 .ordenar {
     margin: 30px 0 30px 70px;
 }

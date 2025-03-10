@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${jogo.genero}</td>
                 <td>
                     <button class="btn btn-warning btn-sm" onclick="editarJogo(${jogo.id})">Editar</button>
-                    <button class="btn btn-success btn-sm" onclick="comprarJogo(${jogo.id})">Comprar</button>
+                    <button class="btn btn-success btn-sm" onclick="adicionarJogo(${jogo.id})">Adicionar</button>
                     <button class="btn btn-danger btn-sm" onclick="excluirJogo(${jogo.id})">Excluir</button>
                 </td>
             `;

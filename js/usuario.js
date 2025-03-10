@@ -7,9 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
         const nome = document.getElementById("nome").value;
         const email = document.getElementById("email").value;
-        const dataNascimento = document.getElementById("dataNascimento").value;
-        
-        const novoUsuario = { id: usuarios.length + 1, nome, email, dataNascimento };
+
+        const novoUsuario = { id: usuarios.length + 1, nome, email };
         usuarios.push(novoUsuario);
         atualizarTabela();
         usuarioForm.reset();
@@ -23,10 +22,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${usuario.id}</td>
                 <td>${usuario.nome}</td>
                 <td>${usuario.email}</td>
-                <td>${usuario.dataNascimento}</td>
-                <td>
                     <button class="btn btn-warning btn-sm" onclick="editarUsuario(${usuario.id})">Editar</button>
-                    <button class="btn btn-success btn-sm" onclick="editarUsuario(${usuario.id})">Inserir</button>
+                    <button class="btn btn-success btn-sm" onclick="consultarUsuario(${usuario.id})">Inserir</button>
                     <button class="btn btn-danger btn-sm" onclick="excluirUsuario(${usuario.id})">Excluir</button>
                 </td>
             `;
@@ -39,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
         if (usuario) {
             document.getElementById("nome").value = usuario.nome;
             document.getElementById("email").value = usuario.email;
-            document.getElementById("dataNascimento").value = usuario.dataNascimento;
             usuarios = usuarios.filter(u => u.id !== id);
             atualizarTabela();
         }
