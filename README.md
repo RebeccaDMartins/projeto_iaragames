@@ -4,4 +4,4 @@ Código desenvolvido para a criação da Iara Games, um projeto da FIAP 02/2025
 
 <br>Evelin Hashimoto </br>
 Flávia Pereira Santana
-Rebecca D. Martins
+<br>Rebecca D. Martins</br>
