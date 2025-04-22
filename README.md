@@ -3,5 +3,5 @@
 Código desenvolvido para a criação da Iara Games, um projeto da FIAP 02/2025
 
 <br>Evelin Hashimoto </br>
-<br>Flávia Pereira Santana</br>
+Flávia Pereira Santana
 Rebecca D. Martins
