@@ -23,15 +23,15 @@
         </div>
         <h2>Acesse sua conta</h2>
 
-        <form action="../home-logado/home.html">
+        <form id="formLogin">
             <div>
-                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
-                <input type="password" id="senha" name="senha" placeholder="Senha">
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                <input type="password" id="senha" name="senha" placeholder="Senha" required>
             </div>
             <p class="esqueceu-senha">Esqueceu sua senha?</p>
-
-            <a href="../home-logado/home.html"> <button type="submit">Entrar</button></a>
+            <button type="submit">Entrar</button>
         </form>
+
 
         <div class="cadastro">
             <a href="../../pages/pagina-cadastro/cadastronovo.html">Primeira vez na Iara Games? Cadastre-se</a>
@@ -42,6 +42,33 @@
             <img src="../../assets/icon/redes-sociais/google icon.png" alt="Faça o login com sua conta Google">
         </div>
     </div>
+
+    <script>
+        document.getElementById("formLogin").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const email = document.getElementById("email").value;
+            const senha = document.getElementById("senha").value;
+
+            fetch("http://localhost:8080/api/usuarios/login", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ email, senha })
+            })
+                .then(response => {
+                    if (response.ok) {
+                        window.location.href = "../home-logado/home.html";
+                    } else {
+                        alert("Usuário ou senha inválidos");
+                    }
+                })
+                .catch(error => {
+                    console.error("Erro ao conectar com a API:", error);
+                    alert("Erro de conexão com o servidor.");
+                });
+        });
+    </script>
+
 </body>
 
 </html>
