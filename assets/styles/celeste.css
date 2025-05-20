@@ -475,11 +475,15 @@ html {
   padding: 8%;
 }
 
-.overview {
+.overview,
+.overview ul {
   width: 1004px;
   height: auto;
   flex-shrink: 0;
   margin: 50px;
+  color: #fff;
+  font-family: 'Montserrat';
+  list-style-type: disc;
 }
 
 .overview h3,
@@ -489,7 +493,7 @@ html {
   font-family: "Montserrat";
   font-size: 20px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 

@@ -472,11 +472,15 @@ html {
     border-radius: 51px;
 }
 
-.overview {
+.overview, 
+.overview ul{
     width: 1004px;
     height: 340px;
     flex-shrink: 0;
     margin: 50px 0 0 0;
+    color: #FFF;
+    list-style-type: disc;
+    font-family: 'Montserrat';
 }
 
 .overview h3,

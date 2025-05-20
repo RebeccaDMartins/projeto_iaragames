@@ -5,7 +5,9 @@ Sua projeção é baseada na criatura mítica Iara, símbolo muito forte no Bras
 O desenvolvimento foi feito em HTML, CSS e JS, respeitando critérios de responsividade e acessibilidade, bem como o UX e UI, pensados na usabilidade e navegabilidade que o usuário encontrará ao interagir na página. 
 A entrega encontra-se em reta final, faltando apenas alguns ajustes essenciais para que o projeto esteja 100% pronto e disponível.
 
-*Projeto em desenvolvimento por Evelin Hashimoto, Flávia Santana e Rebecca Martins para o curso de Web Design da FIAP.*
+*Projeto desenvolvido por Evelin Hashimoto, Flávia Santana e Rebecca Martins para o curso de Web Design da FIAP.*
+
+Link do protótipo no Figma: [Projeto Iara Games](https://www.figma.com/design/BiWaE49sHP1yYfsHhEdhSj/Iara-Games?node-id=0-1&t=BMP7bkvczfb0R62F-1)
 
 ## 🎯 Proposta de Marketing Digital 
 
