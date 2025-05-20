@@ -494,13 +494,15 @@ html {
 }
 
 .overview-1 p,
-.overview-2 p {
+.overview-2 p,
+.overview-1 ul {
   color: #FFF;
   font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  list-style-type: disc;
 
 }
 
